@@ -1,6 +1,6 @@
 var awsIot = require('aws-iot-device-sdk');
 
-var myThingName = 'raspberry-pi';
+var myThingName = 'raspberry';
 
 var thingShadows = awsIot.thingShadow({
    keyPath: './private.pem.key',   // path of private key
